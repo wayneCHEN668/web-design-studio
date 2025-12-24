@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
@@ -56,11 +57,13 @@ const HeroSection = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" className="group">
-              <MessageCircle className="w-5 h-5 mr-2" />
-              查看分析示例
-              <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <Link to="/examples">
+              <Button variant="hero" size="lg" className="group">
+                <MessageCircle className="w-5 h-5 mr-2" />
+                查看分析示例
+                <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
             <Button variant="heroOutline" size="lg">
               了解更多
             </Button>
