@@ -4,16 +4,16 @@ const painPoints = [
   {
     icon: Flame,
     question: "我想节能，但从哪里入手才真正有效？",
-    detail: "哪些气温段在白白烧钱？节能空间到底有多大？",
+    detail: "哪些气温段可以节能？节能空间到底有多大？",
   },
   {
     icon: Droplets,
-    question: "我想节电，二次流量怎么降才不影响供热质量？",
-    detail: "流量是不是已经过大？降了会不会投诉？",
+    question: "我想节电，但二次流量该怎么调整？",
+    detail: "二次流量肯定过大了，多少是合适的呢？",
   },
   {
     icon: Settings2,
-    question: "这个热力站是不是有阀门故障？",
+    question: "这个站的阀门有没有故障？",
     detail: "是阀门坏了，还是选型本来就不合适？",
   },
   {
