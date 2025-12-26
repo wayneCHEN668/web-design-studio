@@ -17,7 +17,7 @@ const steps = [
     icon: FileText,
     step: "03",
     title: "获得结论",
-    description: "用你能看懂的语言给出结论，你看到的是「答案」，而不是计算过程",
+    description: "用你能看懂的语言给出结论，你看到的是「答案」，而不是过程数据",
   },
 ];
 
