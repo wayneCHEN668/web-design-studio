@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ExternalLink } from "lucide-react";
-
 const CTASection = () => {
-  return (
-    <section className="py-20 md:py-32 bg-secondary border-t-4 border-primary">
+  return <section className="py-20 md:py-32 bg-secondary border-t-4 border-primary">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           {/* Title */}
@@ -17,9 +15,9 @@ const CTASection = () => {
           
           {/* Value Props */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <span className="text-foreground font-medium">不用成为数据专家</span>
+            <span className="text-foreground font-medium text-base">不用成为数据专家</span>
             <span className="hidden sm:block text-muted-foreground">|</span>
-            <span className="text-primary font-bold">也能做出专业判断</span>
+            <span className="text-primary font-bold text-base">也能做出专业判断</span>
           </div>
           
           {/* CTA */}
@@ -32,8 +30,6 @@ const CTASection = () => {
           </Link>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTASection;
