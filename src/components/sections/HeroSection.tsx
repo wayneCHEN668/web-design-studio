@@ -62,7 +62,7 @@ const HeroSection = () => {
               </Button>
             </Link>
             <Button variant="heroOutline" size="lg">
-              了解更多
+              申请试用
             </Button>
           </div>
         </div>
