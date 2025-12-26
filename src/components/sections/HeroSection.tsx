@@ -2,15 +2,12 @@ import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroBg})`
+    }} />
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-hero-overlay" />
@@ -20,7 +17,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Brand */}
           <div className="mb-8">
-            <span className="inline-block px-4 py-2 border border-primary/50 text-primary text-sm font-medium tracking-wide">
+            <span className="inline-block px-4 py-2 border border-primary/50 text-primary font-medium tracking-wide text-lg">
               HeatVision AI
             </span>
           </div>
@@ -77,8 +74,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mt-2 animate-bounce" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
