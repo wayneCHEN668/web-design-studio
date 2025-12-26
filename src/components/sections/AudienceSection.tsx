@@ -9,7 +9,7 @@ const audiences = [
   {
     icon: TrendingUp,
     title: "供热公司管理层",
-    description: "节能有依据，决策能量化",
+    description: "决策有依据，节能能量化。未来可预知，成效看得见。",
   },
   {
     icon: GraduationCap,
