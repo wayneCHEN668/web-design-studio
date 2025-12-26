@@ -4,7 +4,7 @@ const audiences = [
   {
     icon: Headphones,
     title: "一线调度与运维人员",
-    description: "不再靠感觉调系统",
+    description: "不再靠感觉调系统，找问题",
   },
   {
     icon: TrendingUp,
