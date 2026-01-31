@@ -61,9 +61,11 @@ const HeroSection = () => {
                 <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
               </Button>
             </Link>
-            <Button variant="heroOutline" size="lg">
-              申请试用
-            </Button>
+            <Link to="/contact">
+              <Button variant="heroOutline" size="lg">
+                申请试用
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
