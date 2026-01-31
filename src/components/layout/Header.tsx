@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -63,12 +64,14 @@ const Header = () => {
           
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button 
-              variant={isScrolled ? "default" : "hero"} 
-              size="sm"
-            >
-              联系我们
-            </Button>
+            <Link to="/contact">
+              <Button 
+                variant={isScrolled ? "default" : "hero"} 
+                size="sm"
+              >
+                联系我们
+              </Button>
+            </Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -98,7 +101,9 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button className="mt-2">联系我们</Button>
+              <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+                <Button className="mt-2 w-full">联系我们</Button>
+              </Link>
             </nav>
           </div>
         )}
