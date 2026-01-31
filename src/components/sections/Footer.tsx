@@ -7,6 +7,8 @@ const Footer = () => {
             <span className="text-primary font-bold">HeatVision AI</span>
             <span className="text-primary-foreground/50">|</span>
             <span>热视界</span>
+            <span className="text-primary-foreground/50">|</span>
+            <span>京ICP备2026004763</span>
           </div>
           
           <p className="text-sm">
