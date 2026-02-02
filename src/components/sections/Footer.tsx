@@ -8,11 +8,11 @@ const Footer = () => {
             <span className="text-primary-foreground/50">|</span>
             <span>热视界</span>
             <span className="text-primary-foreground/50">|</span>
-            <span>京ICP备2026004763</span>
+            <span>面向城市集中供热的历史数据智能分析模型</span>
           </div>
           
           <p className="text-sm">
-            面向城市集中供热的历史数据智能分析模型
+            京ICP备2026004763
           </p>
           
           <p className="text-sm text-primary-foreground/50">
