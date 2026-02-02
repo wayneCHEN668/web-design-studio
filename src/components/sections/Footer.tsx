@@ -10,9 +10,14 @@ const Footer = () => {
             <span>面向区域供热的历史数据智能分析模型</span>
           </div>
           
-          <p className="text-sm">
+          <a 
+            href="http://beian.miit.gov.cn/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm hover:text-primary transition-colors"
+          >
             京ICP备2026004763
-          </p>
+          </a>
           
           <p className="text-sm text-primary-foreground/50">
             © 2024 HeatVision AI. All rights reserved.
