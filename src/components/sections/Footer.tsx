@@ -1,6 +1,5 @@
 const Footer = () => {
-  return (
-    <footer className="py-8 bg-heat-dark text-primary-foreground/70">
+  return <footer className="py-8 bg-heat-dark text-primary-foreground/70">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
@@ -8,7 +7,7 @@ const Footer = () => {
             <span className="text-primary-foreground/50">|</span>
             <span>热视界</span>
             <span className="text-primary-foreground/50">|</span>
-            <span>面向城市集中供热的历史数据智能分析模型</span>
+            <span>面向区域供热的历史数据智能分析模型</span>
           </div>
           
           <p className="text-sm">
@@ -20,8 +19,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
